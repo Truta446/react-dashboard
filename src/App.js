@@ -30,7 +30,7 @@ const App = () => {
     useStateContext();
 
   useEffect(() => {
-    const currentThemeColor = localStorage.getItem('colorMode');
+    const currentThemeColor = localStorage.getItem('themeColor');
     const currentThemeMode = localStorage.getItem('themeMode');
     if (currentThemeColor && currentThemeMode) {
       setCurrentColor(currentThemeColor);
